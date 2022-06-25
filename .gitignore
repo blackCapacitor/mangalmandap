@@ -1,4 +1,4 @@
 node_modules
-./frontend/package-lock.json
-./package-lock.json
-./backend/composer.lock
+package-lock.json
+frontend/package-lock.json
+backend/composer.lock
