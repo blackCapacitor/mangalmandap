@@ -1,0 +1,16 @@
+{
+  "name": "mangalmandap",
+  "version": "1.0.0",
+  "description": "Mangal Mandap is a leading Indian matrimonial matchmaking service provider.",
+  "main": "./frontend/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-dep": "cd ./backend && composer install && cd .. && cd ./frontend && npm install",
+    "dev": "concurrently --kill-others \"cd frontend && npm start\" \"cd backend && php artisan serve\""
+  },
+  "author": "Mahendra Kashyap",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
